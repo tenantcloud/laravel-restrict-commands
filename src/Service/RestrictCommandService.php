@@ -15,7 +15,7 @@ class RestrictCommandService
 
 	private function isCommandRestrictedInCurrentEnvironment(string $commandName): bool
 	{
-		return app()->environment(config('restricted-commands.environments'))
-			&& in_array($commandName, config('restricted-commands.commands'), true);
+		return app()->environment((array) config('restricted-commands.environments')) &&
+			in_array($commandName, (array) config('restricted-commands.commands'), true);
 	}
 }

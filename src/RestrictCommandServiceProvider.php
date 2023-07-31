@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class RestrictCommandServiceProvider extends ServiceProvider
 {
-	public function boot()
+	public function boot(): void
 	{
 		$this->publishes([
 			__DIR__ . '/../resources/config/restricted-commands.php' => config_path('restricted-commands.php'),
