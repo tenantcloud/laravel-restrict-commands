@@ -1,6 +1,21 @@
-# Package name
+### About
 
-Description
+Laravel package to restrict execution some commands in production, staging environments
+
+### Installation
+
+In your `composer.json`, add this repository:
+
+```
+"repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/tenantcloud/laravel-restrict-commands"
+    }
+],
+```
+
+Then run `composer require tenantcloud/laravel-restrict-commands` to install the package.
 
 ### Commands
 
