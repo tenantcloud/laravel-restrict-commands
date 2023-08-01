@@ -8,6 +8,9 @@ use LogicException;
 use TenantCloud\RestrictCommands\Service\RestrictCommandService;
 use Tests\TestCase;
 
+/**
+ * @covers \RestrictCommandService
+ */
 class RestrictCommandServiceTest extends TestCase
 {
 	public function testThrowExceptionRestrictedCommandAndEnvironment(): void

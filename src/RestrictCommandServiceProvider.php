@@ -9,7 +9,7 @@ class RestrictCommandServiceProvider extends ServiceProvider
 	public function boot(): void
 	{
 		$this->publishes([
-			__DIR__ . '/../resources/config/restricted-commands.php' => config_path('restricted-commands.php'),
+			__DIR__ . '/../config/restricted-commands.php' => config_path('restricted-commands.php'),
 		]);
 	}
 
@@ -18,7 +18,7 @@ class RestrictCommandServiceProvider extends ServiceProvider
 		parent::register();
 
 		$this->mergeConfigFrom(
-			__DIR__ . '/../resources/config/restricted-commands.php',
+			__DIR__ . '/../config/restricted-commands.php',
 			'restricted-commands'
 		);
 	}

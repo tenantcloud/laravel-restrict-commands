@@ -3,7 +3,11 @@
 namespace TenantCloud\RestrictCommands\Service;
 
 use Symfony\Component\Console\Exception\LogicException;
+use Tests\Service\RestrictCommandServiceTest;
 
+/**
+ * @see RestrictCommandServiceTest
+ */
 class RestrictCommandService
 {
 	public function throwIfCommandRestrictedInCurrentEnvironment(string $commandName): void
