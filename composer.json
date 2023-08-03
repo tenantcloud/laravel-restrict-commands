@@ -1,6 +1,6 @@
 {
-	"name": "tenantcloud/package-skeleton-laravel",
-	"description": "Skeleton for Laravel packages",
+	"name": "tenantcloud/laravel-restrict-commands",
+	"description": "Package to restrict execution some commands in some environments",
 	"license": "MIT",
 	"require": {
 		"php": ">=8.1",
@@ -19,7 +19,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"TenantCloud\\Skeleton\\": "src/"
+			"TenantCloud\\RestrictCommands\\": "src/"
 		}
 	},
 	"autoload-dev": {
@@ -44,7 +44,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"TenantCloud\\Skeleton\\SkeletonServiceProvider"
+				"TenantCloud\\RestrictCommands\\RestrictCommandServiceProvider"
 			]
 		}
 	}
