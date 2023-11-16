@@ -1,3 +1,10 @@
+# [1.0.0-alpha.2](https://github.com/tenantcloud/laravel-restrict-commands/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2023-11-16)
+
+
+### Features
+
+* Automatically throw on restricted command through event ([#2](https://github.com/tenantcloud/laravel-restrict-commands/issues/2)) ([ef454de](https://github.com/tenantcloud/laravel-restrict-commands/commit/ef454de2093eb03569c6bd931d37b87161159849))
+
 # 1.0.0-alpha.1 (2023-08-03)
 
 
