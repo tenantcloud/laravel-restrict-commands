@@ -1,3 +1,10 @@
+# [1.0.0-alpha.3](https://github.com/tenantcloud/laravel-restrict-commands/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2024-04-25)
+
+
+### Features
+
+* Template sync ([#4](https://github.com/tenantcloud/laravel-restrict-commands/issues/4)) ([8ebd0b2](https://github.com/tenantcloud/laravel-restrict-commands/commit/8ebd0b2f77f70252d1de55b479dbe347c6c326de)), closes [#3](https://github.com/tenantcloud/laravel-restrict-commands/issues/3)
+
 # [1.0.0-alpha.2](https://github.com/tenantcloud/laravel-restrict-commands/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2023-11-16)
 
 
