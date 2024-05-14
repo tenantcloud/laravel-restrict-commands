@@ -5,12 +5,11 @@ namespace Tests\Service;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use LogicException;
+use PHPUnit\Framework\Attributes\CoversClass;
 use TenantCloud\RestrictCommands\Service\RestrictCommandService;
 use Tests\TestCase;
 
-/**
- * @covers \RestrictCommandService
- */
+#[CoversClass(\RestrictCommandService::class)]
 class RestrictCommandServiceTest extends TestCase
 {
 	public function testThrowExceptionRestrictedCommandAndEnvironment(): void
