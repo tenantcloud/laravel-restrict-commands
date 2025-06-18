@@ -1,3 +1,10 @@
+# [1.0.0-alpha.4](https://github.com/tenantcloud/laravel-restrict-commands/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2025-06-18)
+
+
+### Bug Fixes
+
+* Allow Laravel 12 ([369b95b](https://github.com/tenantcloud/laravel-restrict-commands/commit/369b95bbc934db04efb337501a1373b2a1f02d54))
+
 # [1.0.0-alpha.3](https://github.com/tenantcloud/laravel-restrict-commands/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2024-04-25)
 
 
