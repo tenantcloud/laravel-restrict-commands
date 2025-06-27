@@ -1,3 +1,13 @@
+# [1.0.0-alpha.5](https://github.com/tenantcloud/laravel-restrict-commands/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2025-06-27)
+
+
+* feat!: Drop support for Laravel <12 and PHP <8.4 ([946137a](https://github.com/tenantcloud/laravel-restrict-commands/commit/946137ab973a6bff0b81aee9414e6e130923818e))
+
+
+### BREAKING CHANGES
+
+* Laravel 9, 10, 11 and PHP 8.2, 8.2 are no longer supported
+
 # [1.0.0-alpha.4](https://github.com/tenantcloud/laravel-restrict-commands/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2025-06-18)
 
 
