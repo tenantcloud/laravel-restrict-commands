@@ -21,7 +21,7 @@ Then run `composer require tenantcloud/laravel-restrict-commands` to install the
 
 Install dependencies: `docker run -it --rm -v $PWD:/app -w /app composer install`
 
-Run tests: `docker run -it --rm -v $PWD:/app -w /app php:8.1-cli vendor/bin/phpunit`
+Run tests: `docker run -it --rm -v $PWD:/app -w /app php:8.4-cli vendor/bin/phpunit`
 
 Run cs-fix: `docker run -it --rm -v $PWD:/app -w /app composer cs-fix`
 
