@@ -7,9 +7,7 @@ use TenantCloud\RestrictCommands\Service\RestrictCommandService;
 
 class StopRestrictedCommandExecution
 {
-	public function __construct(
-		private readonly RestrictCommandService $restrictCommandService,
-	) {}
+	public function __construct(private readonly RestrictCommandService $restrictCommandService) {}
 
 	public function handle(CommandStarting $event): void
 	{
